@@ -1,317 +1,317 @@
 var imageListByGroup = [
   {
-    "condition": "us_us",
-    "filepath": "usdog_uscity.jpg",
-    "focal": "usdog",
-    "background": "uscity",
-    "description": "A yellow Labrador retriever stands on a paved path in a city park during autumn. Fallen leaves cover the ground, and tall trees with golden foliage line the path. A park bench and lamppost are on the right, while a skyline of tall buildings rises in the background. The scene is warm and sunlit."
-  },
-  {
-    "condition": "us_us",
-    "filepath": "usfountain_uscity.jpg",
-    "focal": "usfountain",
-    "background": "uscity",
-    "description": "A peaceful park scene in autumn. A tiered stone fountain sits in the center, surrounded by a circular basin with fallen leaves floating in the water and scattered on the ground. Tall trees with golden-yellow foliage frame the path, and sunlight filters through the leaves. A black lamppost stands to the right, and modern city buildings rise faintly in the background."
-  },
-  {
-    "condition": "us_us",
-    "filepath": "usman_uscity.jpg",
-    "focal": "usman",
-    "background": "uscity",
-    "description": "A man in dark clothing stands on a paved path in a city park during autumn. Yellow-leaved trees line both sides, with fallen leaves scattered on the ground. A black lamppost stands near him, and tall skyscrapers rise in the background beyond the trees."
-  },
-  {
-    "condition": "us_us",
-    "filepath": "uswoman_uscity.jpg",
-    "focal": "uswoman",
-    "background": "uscity",
-    "description": "A woman stands on a wide paved path in a city park during autumn. Tall trees with yellow leaves line the path, and fallen leaves scatter across the ground. A black lamppost stands near her, and skyscrapers rise in the background beyond the trees. The scene is bright and sunny."
-  },
-  {
-    "condition": "us_us",
-    "filepath": "uswoman_uscountryside.jpg",
-    "focal": "uswoman",
-    "background": "uscountryside",
-    "description": "A woman stands in a wide grassy field on a sunny day. She is wearing a denim jacket, dark jeans, and brown boots. Behind her to the left is a red barn, with a white farmhouse partly visible nearby. In the distance, trees with autumn-colored leaves line the horizon under a clear blue sky."
-  },
-  {
-    "condition": "us_jp",
-    "filepath": "usfountain_jpcity.jpg",
-    "focal": "usfountain",
-    "background": "jpcity",
-    "description": "A narrow, old Japanese-style alley lined with dark wooden buildings. On the left is a stone, tiered fountain with water trickling down into a round basin. Warm round lanterns glow along the walls, contrasting with the cool, gray stone pavement. Farther down the alley, a bright blue vending machine stands out beneath the traditional wooden facades."
-  },
-  {
-    "condition": "us_jp",
-    "filepath": "usman_jpyard.jpg",
-    "focal": "usman",
-    "background": "jpyard",
-    "description": "A man in a plaid shirt, jeans, and boots stands on a stone path in a quiet garden. Behind him is a traditional wooden Japanese-style building with sliding doors and a curved roof. Tall trees and trimmed shrubs surround the scene, with fallen leaves on the ground, creating a calm autumn atmosphere."
-  },
-  {
-    "condition": "us_jp",
-    "filepath": "uswoman_jpcity.jpg",
-    "focal": "uswoman",
-    "background": "jpcity",
-    "description": "A woman stands in a narrow traditional Japanese alley lined with dark wooden buildings and stone paving. Warm round lanterns hang above her on the right, lighting the wooden lattice storefront. In the distance, a blue vending machine glows at the end of the quiet street."
-  },
-  {
-    "condition": "us_jp",
-    "filepath": "uswoman_jpcountryside.jpg",
-    "focal": "uswoman",
-    "background": "jpcountryside",
-    "description": "A woman stands on a narrow gravel road in a rural village. She is wearing jeans, hiking shoes, a navy shirt, and a gray hoodie. Traditional wooden houses with dark tiled roofs line both sides of the road, with green rice fields beside them. In the distance, a red shrine gate stands in front of tall evergreen trees under a cloudy sky."
-  },
-  {
-    "condition": "us_jp",
-    "filepath": "uswoman_jpyard.jpg",
-    "focal": "uswoman",
-    "background": "jpyard",
-    "description": "A woman stands on a stone walkway in a quiet temple or shrine courtyard. Behind her is a traditional wooden Japanese-style building with sliding doors and a curved roof. Trees with green and yellow leaves surround the area, and a stone water basin sits to the right. The scene feels peaceful and autumnal."
-  },
-  {
-    "condition": "us_nt",
-    "filepath": "usdog_ntapt.jpg",
-    "focal": "usdog",
-    "background": "ntapt",
-    "description": "A yellow Labrador retriever stands on a grassy lawn, wearing a black harness. Behind the dog are modern apartment buildings, trees, a metal fence, and a cloudy sky. The dog is facing slightly left, alert and calm."
-  },
-  {
-    "condition": "us_nt",
-    "filepath": "usfountain_ntapt.jpg",
-    "focal": "usfountain",
-    "background": "ntapt",
-    "description": "A stone, tiered fountain sits in the center of a grassy courtyard, with water spilling from the top into a round basin. It is surrounded by a circular paved walkway. Tall leafy trees and modern brick apartment buildings with balconies frame the background under a partly cloudy sky."
-  },
-  {
-    "condition": "us_nt",
-    "filepath": "usman_ntapt.jpg",
-    "focal": "usman",
-    "background": "ntapt",
-    "description": "A man stands facing the camera in a grassy park dotted with small white flowers. He wears a dark zip-up hoodie, dark jeans, and gray shoes. Behind him are leafy trees, a paved path with a black fence, and several mid-rise apartment buildings under a cloudy sky."
-  },
-  {
-    "condition": "us_nt",
-    "filepath": "usman_ntforest.jpg",
-    "focal": "usman",
-    "background": "ntforest",
-    "description": "A man stands on a dirt trail in a dense forest. He is facing the camera with a neutral expression, wearing a blue zip-up hoodie, olive-green pants, and hiking shoes. Tall trees surround him, with moss, branches, and low greenery covering the forest floor. The path continues behind him through the woods."
-  },
-  {
-    "condition": "us_nt",
-    "filepath": "uswoman_ntpond.jpg",
-    "focal": "uswoman",
-    "background": "ntpond",
-    "description": "A woman stands on a dirt path in a lush park beside a calm pond. She wears a denim jacket, light shirt, olive pants, and sneakers. Large leafy trees arch overhead, and the pond on the left reflects the greenery. The scene feels quiet and peaceful."
-  },
-  {
-    "condition": "jp_us",
-    "filepath": "jpdog_uscity.jpg",
-    "focal": "jpdog",
-    "background": "uscity",
-    "description": "A small tan-and-white dog wearing a red harness stands on a leaf-strewn path in an autumn park. Golden trees line both sides, with a bench and lamppost on the right. Tall city buildings rise in the background, softly lit by sunlight."
-  },
-  {
-    "condition": "jp_us",
-    "filepath": "jpdog_usneighborhood.jpg",
-    "focal": "jpdog",
-    "background": "usneighborhood",
-    "description": "A tan Shiba Inu dog wearing a black harness stands on a grassy strip beside a sidewalk in a quiet suburban neighborhood. Fallen orange and brown autumn leaves cover the grass and pavement. Houses, parked cars, trash bins, and tree-lined streets are visible in the background, with warm sunlight filtering through fall foliage."
-  },
-  {
-    "condition": "jp_us",
-    "filepath": "jpfountain_uscity.jpg",
-    "focal": "jpfountain",
-    "background": "uscity",
-    "description": "A peaceful park scene in autumn. A paved path curves into the distance on the left, lined with tall trees covered in yellow and orange leaves. Fallen leaves scatter across the ground. On the right foreground stands a large stone Japanese-style lantern. Black lampposts follow the path, and tall city skyscrapers rise in the background beyond the trees."
-  },
-  {
-    "condition": "jp_us",
-    "filepath": "jpman_usneighborhood.jpg",
-    "focal": "jpman",
-    "background": "usneighborhood",
-    "description": "A man stands centered on a sidewalk in a quiet residential neighborhood. He wears a dark jacket, beige shirt, olive pants, and black shoes. On the left are porch-front houses; on the right are parked cars and a black streetlamp. Tall trees with golden autumn leaves line the street, and fallen leaves cover the grass and sidewalk."
-  },
-  {
-    "condition": "jp_us",
-    "filepath": "jpwoman_uscity.jpg",
-    "focal": "jpwoman",
-    "background": "uscity",
-    "description": "A woman stands on the right side of a wide park path covered with fallen autumn leaves. Tall trees with golden-yellow foliage line both sides, and a black lamppost stands to the left. In the distance, city skyscrapers rise behind the trees, softly lit by sunlight. The scene feels calm and autumnal."
-  },
-  {
     "condition": "jp_jp",
     "filepath": "jpdog_jpcountryside.jpg",
     "focal": "jpdog",
     "background": "jpcountryside",
-    "description": "A Shiba Inu wearing a red harness stands on a narrow village road. To the left is a flooded rice paddy with young green plants, and to the right are traditional wooden houses with tiled roofs. In the distance, a red torii gate stands among tall trees, with forested hills and a cloudy sky behind it."
+    "description": "On a narrow path along a rice field, a Shiba Inu wearing a red harness is standing. On the right side, old wooden houses are lined up, and in the distance, large trees and a red torii gate can be seen. It is a quiet rural scene in Japan."
   },
   {
     "condition": "jp_jp",
     "filepath": "jpdog_jpyard.jpg",
     "focal": "jpdog",
     "background": "jpyard",
-    "description": "A tan Shiba Inu dog wearing a red harness stands on a stone path in a quiet Japanese temple courtyard. To the left is an old wooden temple building with sliding doors and a curved roof. On the right are large trees, trimmed bushes, a stone lantern, and a stone water basin. The scene feels peaceful and shaded, with soft sunlight filtering through green leaves."
-  },
-  {
-    "condition": "jp_jp",
-    "filepath": "jpfountain_jpyard.jpg",
-    "focal": "jpfountain",
-    "background": "jpyard",
-    "description": "A quiet Japanese temple courtyard surrounded by trees. On the left is an old wooden temple building with sliding doors, a raised porch, and a broad sloped roof. A stone path leads through the foreground toward the building. On the right stands a mossy stone lantern beside shrubs and a tall tree. Fallen leaves cover the ground, giving the scene a calm autumn feel."
+    "description": "It is the grounds of an old Japanese temple. On the stone-paved approach, a Shiba Inu wearing a red harness is standing. Around it are wooden buildings, large trees, stone lanterns, and a stone water basin, creating a calm atmosphere with abundant greenery."
   },
   {
     "condition": "jp_jp",
     "filepath": "jpwoman_jpcity.jpg",
     "focal": "jpwoman",
     "background": "jpcity",
-    "description": "A young woman stands on the right side of a narrow stone-paved alley lined with traditional wooden buildings. Warm round lanterns glow above the doorways, casting soft light on the wooden lattice walls. She wears a gray cardigan, white shirt, black pants, and sneakers. In the distance, a blue vending machine is visible at the end of the quiet alley."
+    "description": "A dim stone-paved alley at dusk. Old wooden machiya townhouses line both sides, with round lanterns glowing warmly. On the right side, a woman wearing a white T-shirt and a gray cardigan is standing. In the distance, a blue vending machine can be seen."
   },
   {
     "condition": "jp_jp",
     "filepath": "jpwoman_jpyard.jpg",
     "focal": "jpwoman",
     "background": "jpyard",
-    "description": "A woman stands on a stone path in a quiet, leafy temple garden. Behind her is a traditional wooden building with sliding doors, a raised veranda, and a broad curved roof. Tall trees and green shrubs surround the scene, giving it a calm, shaded atmosphere."
+    "description": "In the front garden of an old wooden temple, a woman is standing on the stone pavement. Around her are large trees and a green garden, creating a calm, traditional Japanese atmosphere."
+  },
+  {
+    "condition": "jp_jp",
+    "filepath": "jpman_jpyard.jpg",
+    "focal": "jpman",
+    "background": "jpyard",
+    "description": "In front of an old wooden Japanese temple surrounded by green trees, a man is standing beside a stone-paved approach. The building has a large roof and a veranda, and has a calm atmosphere."
   },
   {
     "condition": "jp_nt",
-    "filepath": "jpdog_ntforest.jpg",
-    "focal": "jpdog",
-    "background": "ntforest",
-    "description": "A tan-and-white Shiba Inu wearing a red harness stands alert on a narrow forest path. The trail is surrounded by tall trees, evergreen bushes, mossy rocks, ferns, and dappled sunlight, creating a quiet woodland scene."
-  },
-  {
-    "condition": "jp_nt",
-    "filepath": "jpfountain_ntapt.jpg",
-    "focal": "jpfountain",
+    "filepath": "jpwoman_ntapt.jpg",
+    "focal": "jpwoman",
     "background": "ntapt",
-    "description": "A small stone lantern-like garden sculpture stands in the middle of a grassy courtyard. Behind it are leafy green trees, a paved path, and modern multi-story apartment buildings with brick and light-colored walls. The scene is bright and sunny with a partly cloudy sky."
+    "description": "On the park’s wide grass, one woman is standing. She is wearing a beige hoodie, dark jeans, and gray shoes. Around her, small white flowers are blooming, and behind her, large trees and apartment buildings are lined up. The sky is cloudy."
   },
   {
     "condition": "jp_nt",
-    "filepath": "jpfountain_ntpond.jpg",
-    "focal": "jpfountain",
+    "filepath": "jpman_ntforest.jpg",
+    "focal": "jpman",
+    "background": "ntforest",
+    "description": "On a dirt path in the forest, a man is standing facing forward. Around him, tall trees are lined up, and on the ground, fallen leaves, moss, and branches can be seen. The man is wearing a gray jacket, a beige shirt, green pants, and black shoes. Overall, it has the atmosphere of a quiet forest walking path."
+  },
+  {
+    "condition": "jp_nt",
+    "filepath": "jpwoman_ntforest.jpg",
+    "focal": "jpwoman",
+    "background": "ntforest",
+    "description": "On a dirt walking path in the forest, one woman is standing. Tall trees are densely gathered around her, and the path continues straight into the back. The woman is wearing a gray hoodie, a green shirt, and black pants, and is facing this way with a calm expression. Overall, it has the atmosphere of a quiet nature walk."
+  },
+  {
+    "condition": "jp_nt",
+    "filepath": "jpdog_ntpond.jpg",
+    "focal": "jpdog",
     "background": "ntpond",
-    "description": "A peaceful park scene with a winding dirt path beside a calm pond. Tall green trees arch overhead, their leaves reflected in the water. In the foreground near the pond is a small stone lantern on a square base, surrounded by grass and moss."
+    "description": "By a lakeside in a green, lush park, a Shiba Inu wearing a red harness is standing and looking at the water’s edge. On the left, a curved walking path continues, and around it there are trees and low bushes; on the lake surface, the green scenery is reflected."
   },
   {
     "condition": "jp_nt",
     "filepath": "jpman_ntpond.jpg",
     "focal": "jpman",
     "background": "ntpond",
-    "description": "A man stands on a dirt path in a leafy park beside a calm pond. He is wearing a navy hoodie, green pants, and brown shoes. Large trees with arching branches frame the scene overhead, and the pond on the left reflects the surrounding greenery. The path curves gently through the grass and trees in the background."
+    "description": "On a walking path beside a pond in the park, one man is standing. Around him, there are many large trees, and the branches and leaves cover overhead. The trees are reflected on the surface of the pond, and overall, it has a greenery-rich and quiet atmosphere."
   },
   {
-    "condition": "jp_nt",
-    "filepath": "jpwoman_ntpond.jpg",
-    "focal": "jpwoman",
-    "background": "ntpond",
-    "description": "A woman stands on a dirt path in a green park beside a calm pond. She wears a light gray hoodie, dark jeans, and sneakers. Large leafy trees arch overhead, and the pond on the left reflects the trees and cloudy sky. The scene feels quiet and natural."
-  },
-  {
-    "condition": "nt_us",
-    "filepath": "ntbench_usneighborhood.jpg",
-    "focal": "ntbench",
-    "background": "usneighborhood",
-    "description": "A quiet suburban street in autumn. In the foreground, a simple weathered wooden bench sits beside a sidewalk and curb, surrounded by fallen brown leaves. Across the street are small single-story houses with driveways, trash bins, and parked cars. Large trees with orange, red, and yellow fall foliage arch over the scene in warm sunlight."
-  },
-  {
-    "condition": "nt_us",
-    "filepath": "ntbike_uscity.jpg",
-    "focal": "ntbike",
-    "background": "uscity",
-    "description": "A black bicycle is parked beside a paved path in a sunny city park. Tall trees with yellow autumn leaves line the walkway, with fallen leaves scattered on the ground. A black lamppost stands near the bike, and a skyline of tall city buildings rises in the background."
-  },
-  {
-    "condition": "nt_us",
-    "filepath": "ntbike_usneighborhood.jpg",
-    "focal": "ntbike",
-    "background": "usneighborhood",
-    "description": "A black bicycle stands on a narrow grassy strip beside a quiet residential street. Fallen autumn leaves cover the grass and sidewalk. Small houses with porches line the street, and trees with orange and green foliage arch overhead in warm late-day light."
-  },
-  {
-    "condition": "nt_us",
-    "filepath": "ntdog_uscity.jpg",
-    "focal": "ntdog",
-    "background": "uscity",
-    "description": "A medium-sized tan dog wearing a black harness stands on a paved path in a city park. The path is lined with tall trees covered in yellow autumn leaves, with fallen leaves scattered on the ground. A black lamppost stands behind the dog. In the distance, beyond the green lawn and trees, there is a skyline of tall city buildings and skyscrapers."
-  },
-  {
-    "condition": "nt_us",
-    "filepath": "ntdog_uscountryside.jpg",
-    "focal": "ntdog",
+    "condition": "jp_us",
+    "filepath": "jpman_uscountryside.jpg",
+    "focal": "jpman",
     "background": "uscountryside",
-    "description": "A tan dog wearing a black harness stands in a wide grassy field. In the background, there is a red barn, a white farmhouse, and trees with autumn-colored leaves under a clear blue sky."
+    "description": "A man is standing in a wide grass field. In the back left, there is a red barn and a white house, and further in the back, a forest of trees colored in autumn colors spreads out. The sky is clear, and it is a calm rural landscape."
+  },
+  {
+    "condition": "jp_us",
+    "filepath": "jpwoman_usneighborhood.jpg",
+    "focal": "jpwoman",
+    "background": "usneighborhood",
+    "description": "On a sidewalk in a residential neighborhood in autumn, one woman is standing alone. Around her, there are fallen leaves, colored trees, rows of white houses, and cars parked on the street, and soft light like evening sunlight is shining."
+  },
+  {
+    "condition": "jp_us",
+    "filepath": "jpdog_usneighborhood.jpg",
+    "focal": "jpdog",
+    "background": "usneighborhood",
+    "description": "In a residential neighborhood in autumn, a brown Shiba Inu is standing on the grass. Fallen leaves are scattered around, and along the road, cars, houses, and trees colored yellow are lined up. It is a calm scene with bright sunlight."
+  },
+  {
+    "condition": "jp_us",
+    "filepath": "jpfountain_uscity.jpg",
+    "focal": "jpfountain",
+    "background": "uscity",
+    "description": "It is an autumn park scene. A tree-lined path with fallen leaves scattered continues into the back, and the trees are colored yellow. On the right side, there is a stone structure like a stone lantern, and in the background, high-rise buildings can be seen. It is sunny and has a calm atmosphere."
+  },
+  {
+    "condition": "jp_us",
+    "filepath": "jpwoman_uscountryside.jpg",
+    "focal": "jpwoman",
+    "background": "uscountryside",
+    "description": "A woman is standing in a wide grassy area. In the back left, there is a red barn and a white house, and in the background, autumn-colored trees and a forest spread out. The sky is clear and blue, and it is a calm rural scene."
+  },
+  {
+    "condition": "nt_jp",
+    "filepath": "ntdog_jpyard.jpg",
+    "focal": "ntdog",
+    "background": "jpyard",
+    "description": "It is the grounds of an old wooden temple surrounded by trees. In the center of the stone-paved approach path, a gray dog wearing a collar is standing. On the right side, there is a water purification basin and a stone lantern, and the atmosphere is quiet and calm."
+  },
+  {
+    "condition": "nt_jp",
+    "filepath": "ntcamera_jpyard.jpg",
+    "focal": "ntcamera",
+    "background": "jpyard",
+    "description": "It is a place like the grounds of a Japanese temple. In the center of the stone-paved approach path, a camera mounted on a tripod is standing. On the left is an old wooden building, and on the right are a water purification basin, stone lanterns, and well-maintained trees, creating a quiet atmosphere surrounded by greenery."
+  },
+  {
+    "condition": "nt_jp",
+    "filepath": "ntbench_jpcountryside.jpg",
+    "focal": "ntbench",
+    "background": "jpcountryside",
+    "description": "A narrow road extends straight beside rice fields, and on the right side there are old wooden houses and a bench. In the distance, a red torii gate and large trees stand, and further beyond, mountains and a village can be seen, creating a quiet Japanese countryside scene."
   },
   {
     "condition": "nt_jp",
     "filepath": "ntbench_jpyard.jpg",
     "focal": "ntbench",
     "background": "jpyard",
-    "description": "A peaceful Japanese temple courtyard with a weathered wooden bench in the foreground. Behind it stands a traditional wooden building with curved rooflines, sliding doors, and a raised veranda. The ground is stone and gravel, surrounded by trimmed shrubs, a stone lantern, and tall trees with green and early autumn leaves."
+    "description": "In a quiet Japanese garden, there is an old wooden temple building. In the foreground, there are stone pavements and a wooden bench, and around them are a gravel garden, lanterns, well-maintained shrubs, and tall trees, creating a calm atmosphere."
   },
   {
     "condition": "nt_jp",
-    "filepath": "ntbike_jpcountryside.jpg",
-    "focal": "ntbike",
-    "background": "jpcountryside",
-    "description": "A quiet rural Japanese village scene: a narrow paved path runs between flooded rice paddies on the left and traditional dark wooden houses on the right. A black bicycle is parked beside the path in the foreground. In the distance, a red torii gate stands beneath tall trees, with forested hills and a cloudy sky behind it."
-  },
-  {
-    "condition": "nt_jp",
-    "filepath": "ntcamera_jpcountryside.jpg",
-    "focal": "ntcamera",
-    "background": "jpcountryside",
-    "description": "A camera on a black tripod stands in the middle of a narrow paved path in a quiet rural Japanese village. To the left is a flooded rice paddy with young green shoots reflected in the water. To the right are traditional wooden houses with tiled roofs. In the distance, a bright red torii gate sits among tall trees, with forested hills and a cloudy sky beyond."
-  },
-  {
-    "condition": "nt_jp",
-    "filepath": "ntdog_jpcity.jpg",
-    "focal": "ntdog",
-    "background": "jpcity",
-    "description": "A tan, medium-sized dog stands in the middle of a narrow stone-paved alley at dusk or night. The alley is lined with traditional wooden buildings and warm glowing lanterns on both sides, creating an amber, cozy atmosphere. In the distance, two brightly lit vending machines stand at the end of the street."
-  },
-  {
-    "condition": "nt_jp",
-    "filepath": "ntdog_jpcountryside.jpg",
-    "focal": "ntdog",
-    "background": "jpcountryside",
-    "description": "A tan dog wearing a black harness stands on a narrow rural lane. To the left is a flooded rice paddy with young green shoots; to the right are traditional dark wooden houses with tiled roofs. Farther down the path, an orange torii gate stands in front of tall trees, with forested hills in the background under a cloudy sky."
-  },
-  {
-    "condition": "nt_nt",
-    "filepath": "ntbench_ntforest.jpg",
+    "filepath": "ntbench_jpcity.jpg",
     "focal": "ntbench",
-    "background": "ntforest",
-    "description": "A peaceful woodland trail winds through tall, thin trees. A weathered wooden bench sits on the right side of the dirt path, surrounded by ferns, moss, fallen leaves, and exposed tree roots. Soft sunlight filters through the branches, giving the forest a calm, natural feel."
+    "background": "jpcity",
+    "description": "It is an old Japanese-style alley like Kyoto at dusk or night. Wooden buildings are lined up on both sides, and warm lanterns and lights are lit. A stone-paved road continues into the back, and on the right side there is a wooden bench, while at the end two vending machines can be seen. It has a calm and quiet atmosphere."
   },
   {
     "condition": "nt_nt",
-    "filepath": "ntbike_ntapt.jpg",
-    "focal": "ntbike",
-    "background": "ntapt",
-    "description": "A black road bicycle with drop handlebars stands on a paved sidewalk in a grassy park. Behind it are leafy green trees, a black metal fence, and several multi-story apartment buildings with balconies. The scene is bright and calm, likely on a sunny day."
-  },
-  {
-    "condition": "nt_nt",
-    "filepath": "ntcamera_ntapt.jpg",
-    "focal": "ntcamera",
-    "background": "ntapt",
-    "description": "A black camera sits on a tall tripod in the middle of a green lawn. Behind it is a paved path, several large leafy trees, and a multi-story brick apartment building with many windows and balconies. The scene is outdoors in a park-like area on an overcast day."
+    "filepath": "ntbench_ntpond.jpg",
+    "focal": "ntbench",
+    "background": "ntpond",
+    "description": "It is a quiet park along a lake. On the right side, there is a wooden bench, and a gravel path continues into the distance along the lake. The surroundings are enclosed by green grass and large trees, and the branches and leaves create shade. On the left side, the calm surface of the lake spreads out, and it has a nature-rich and peaceful atmosphere."
   },
   {
     "condition": "nt_nt",
     "filepath": "ntcamera_ntforest.jpg",
     "focal": "ntcamera",
     "background": "ntforest",
-    "description": "A forest trail runs straight through tall trees, with sunlight filtering through branches. On the right side of the dirt path, a camera is mounted on a black tripod, aimed down the trail. The ground is covered with leaves, moss, roots, and small plants, creating a quiet woodland scene."
+    "description": "A narrow dirt path in the forest continues into the back. On both sides, tall trees stand in rows, and sunlight filters through the trees. In the front right of the path, a camera attached to a tripod is placed, and it appears to be filming deeper into the forest."
   },
   {
     "condition": "nt_nt",
     "filepath": "ntdog_ntpond.jpg",
     "focal": "ntdog",
     "background": "ntpond",
-    "description": "A tan, medium-sized dog wearing a black harness stands on a gravel path beside a calm pond. The path curves through a lush green wooded park. Tall trees surround the area, and their reflections are visible in the water. The dog is facing right, alert and looking toward the pond."
+    "description": "Along the edge of a pond in the forest, a gravel path continues gently. In the foreground, a brown dog wearing a black harness is standing and looking at the pond on the right side. The surroundings are enclosed by green trees, and the trees are reflected on the water’s surface."
+  },
+  {
+    "condition": "nt_nt",
+    "filepath": "ntdog_ntforest.jpg",
+    "focal": "ntdog",
+    "background": "ntforest",
+    "description": "On a narrow dirt walking path in the forest, a medium-sized dog wearing a harness is standing. Around it, there are tall trees, green bushes, and moss-covered rocks, and it is a quiet natural scene with sunlight filtering through the trees."
+  },
+  {
+    "condition": "nt_nt",
+    "filepath": "ntdog_ntapt.jpg",
+    "focal": "ntdog",
+    "background": "ntapt",
+    "description": "In a grassy open area, a medium-sized brown dog wearing a black harness is standing. The dog is facing left and looking around. In the background, trees, a sidewalk, a fence, and several-story apartment buildings are lined up. Overall, it is a quiet residential area scene with a lot of greenery."
+  },
+  {
+    "condition": "nt_us",
+    "filepath": "ntbike_uscountryside.jpg",
+    "focal": "ntbike",
+    "background": "uscountryside",
+    "description": "One black bicycle is standing in the foreground of a wide grass field. In the back left, there is a red barn, and near it, a white house, and farther in the back, a grove of trees colored with autumn colors spreads out. The sky is clear, and it is a peaceful rural scene."
+  },
+  {
+    "condition": "nt_us",
+    "filepath": "ntdog_uscountryside.jpg",
+    "focal": "ntdog",
+    "background": "uscountryside",
+    "description": "In the front of a wide grass field, a brown dog wearing a harness is standing. In the back, there is a red barn and a white house, and around them, autumn-colored trees are lined up. The sky is clear, and it is a calm rural scene."
+  },
+  {
+    "condition": "nt_us",
+    "filepath": "ntdog_usneighborhood.jpg",
+    "focal": "ntdog",
+    "background": "usneighborhood",
+    "description": "On the grass beside a sidewalk in a residential neighborhood in autumn, a medium-sized dog wearing a harness is standing. Fallen leaves are scattered around, the rows of trees are colored with autumn leaves, and white houses, parked cars, and trash bins can be seen."
+  },
+  {
+    "condition": "nt_us",
+    "filepath": "ntbike_uscity.jpg",
+    "focal": "ntbike",
+    "background": "uscity",
+    "description": "An autumn tree-lined path in a park. Yellow-colored trees and fallen leaves spread out, and on the right side, a black bicycle is parked beside a streetlight. In the distance, a group of high-rise buildings can be seen, making it a quiet park scene within the city."
+  },
+  {
+    "condition": "nt_us",
+    "filepath": "ntbench_uscountryside.jpg",
+    "focal": "ntbench",
+    "background": "uscountryside",
+    "description": "One wooden bench is placed in a wide grassy field. In the back, there is a red barn and a small house, and further beyond them, an autumn-colored forest spreads out. The sky is clear, and it is a quiet rural scene."
+  },
+  {
+    "condition": "us_jp",
+    "filepath": "usman_jpcountryside.jpg",
+    "focal": "usman",
+    "background": "jpcountryside",
+    "description": "A man is standing on a gravel road in the countryside. On both sides, there are old wooden houses and green rice fields, and in the distance along the road, a red torii gate and tall trees can be seen. The sky is lightly cloudy."
+  },
+  {
+    "condition": "us_jp",
+    "filepath": "usman_jpyard.jpg",
+    "focal": "usman",
+    "background": "jpyard",
+    "description": "It is the grounds of a quiet temple surrounded by trees. On the left side, there is an old wooden Japanese-style building, and a stone-paved approach path continues from the foreground to the building. On the right side, a man wearing a checkered shirt is standing. Overall, there is a lot of greenery and the atmosphere is calm."
+  },
+  {
+    "condition": "us_jp",
+    "filepath": "uswoman_jpcity.jpg",
+    "focal": "uswoman",
+    "background": "jpcity",
+    "description": "On a narrow stone-paved alley at dusk, traditional wooden buildings are lined up. At the storefront on the right side, a round lantern is lit, and under it, a woman wearing a navy-blue jacket is standing. In the back, a blue vending machine can be seen."
+  },
+  {
+    "condition": "us_jp",
+    "filepath": "usdog_jpcountryside.jpg",
+    "focal": "usdog",
+    "background": "jpcountryside",
+    "description": "On a narrow road along rice fields, a yellow Labrador wearing a harness is standing. On the right, old wooden houses are lined up, and in the distance, a red torii gate, tall trees, and mountains can be seen in this quiet Japanese countryside scene."
+  },
+  {
+    "condition": "us_jp",
+    "filepath": "usfountain_jpcountryside.jpg",
+    "focal": "usfountain",
+    "background": "jpcountryside",
+    "description": "It is a rural village scene. On the left and right, old wooden houses with tiled roofs are lined up, and in the center, an unpaved road continues into the back. In the front right, there is a round stone fountain, and water is flowing. In the distance, green rice fields, trees, and a small building like a red torii gate can be seen, and the atmosphere is quiet and peaceful."
+  },
+  {
+    "condition": "us_nt",
+    "filepath": "usfountain_ntapt.jpg",
+    "focal": "usfountain",
+    "background": "ntapt",
+    "description": "In the center of a grassy open space, there is a two-tiered stone fountain. Around it, there are walkways and circular stone pavement, and behind it, green trees and brick apartment buildings are lined up. It is bright daytime, and it has the atmosphere of a calm residential courtyard."
+  },
+  {
+    "condition": "us_nt",
+    "filepath": "uswoman_ntapt.jpg",
+    "focal": "uswoman",
+    "background": "ntapt",
+    "description": "In a wide grassy park, one woman is standing. She is wearing a white T-shirt, a khaki-colored jacket, black pants, and beige shoes. Trees are lined up around her, and in the distance, a building like an apartment complex can be seen. The sky is cloudy."
+  },
+  {
+    "condition": "us_nt",
+    "filepath": "usman_ntpond.jpg",
+    "focal": "usman",
+    "background": "ntpond",
+    "description": "At the edge of a lake in a park, a man is standing. The man is wearing a denim jacket and beige pants. Large trees are lined up around him, and green leaves cover overhead. The trees are reflected on the lake surface, and the atmosphere is calm."
+  },
+  {
+    "condition": "us_nt",
+    "filepath": "usdog_ntapt.jpg",
+    "focal": "usdog",
+    "background": "ntapt",
+    "description": "In a grassy open area, a pale yellow Labrador dog is standing. It is wearing a black harness, and around it, trees and apartment buildings are lined up. The sky has many clouds, and it is a bright outdoor daytime scene."
+  },
+  {
+    "condition": "us_nt",
+    "filepath": "usfountain_ntforest.jpg",
+    "focal": "usfountain",
+    "background": "ntforest",
+    "description": "Beside a small path in the forest, there is a three-tiered stone fountain. The surroundings are enclosed by tall trees and green grass, and it has a quiet, fantastical atmosphere where sunlight filtering through the trees shines onto the ground. Water is flowing down from the fountain."
+  },
+  {
+    "condition": "us_us",
+    "filepath": "uswoman_uscountryside.jpg",
+    "focal": "uswoman",
+    "background": "uscountryside",
+    "description": "A woman is standing in a wide grassland. In the background, there are a red barn, a white house, a large tree, and a forest with autumn-colored leaves, and a clear blue sky spreads out. The woman is wearing a denim jacket and jeans, and brown boots."
+  },
+  {
+    "condition": "us_us",
+    "filepath": "usdog_uscountryside.jpg",
+    "focal": "usdog",
+    "background": "uscountryside",
+    "description": "In a wide green grassland, a dog like a white Labrador is standing. In the back, there is a large red barn and a white house, and behind them a forest with autumn-colored leaves spreads out. The sky is clear, and it is a peaceful rural landscape."
+  },
+  {
+    "condition": "us_us",
+    "filepath": "usfountain_uscountryside.jpg",
+    "focal": "usfountain",
+    "background": "uscountryside",
+    "description": "In a rural landscape, there is a three-tiered stone fountain. Around the fountain are a lawn and a gravel path, and in the back left a large red barn can be seen, with a white house farther in the back. In the background, autumn-colored trees and wide fields spread out, and the sky is clear."
+  },
+  {
+    "condition": "us_us",
+    "filepath": "uswoman_uscity.jpg",
+    "focal": "uswoman",
+    "background": "uscity",
+    "description": "In an autumn park, a woman is standing beside a wide promenade where fallen leaves are scattered. Around her, yellow-colored trees line up, and in the distance a cityscape of high-rise buildings can be seen. It is a calm landscape with bright sunlight."
+  },
+  {
+    "condition": "us_us",
+    "filepath": "usman_uscity.jpg",
+    "focal": "usman",
+    "background": "uscity",
+    "description": "A man is standing on a path in an autumn park. The surroundings are covered with yellow-colored trees and fallen leaves, and there is a streetlight on the left side. In the distance, a group of high-rise buildings can be seen, making it a landscape where nature and the city overlap."
   }
 ];
